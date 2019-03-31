@@ -4,7 +4,7 @@ require '../main.php';
 $api = new API("GET", "json", "UTF-8");
 
 // Gets
-$get = $api->gets(["token", "limit", "id"]);
+$get = $api->gets(["token", "limit", "id", "pacient_id"]);
 $api->getsObrigatorias($get, ["token"]);
 // Token
 $api->verificarToken($get['token']);
@@ -19,6 +19,9 @@ if ((!$get['limit']) || ($get['limit'] == "all")) {
 $where = "";
 if ($get['id']) {
     $where = "WHERE `id` = '".$get['id']."' ";
+}
+if ($get['pacient_id']) {
+    $where = "WHERE `pacient_id` = '".$get['pacient_id']."' ";
 }
 
 // Query MYSQL
