@@ -21,7 +21,7 @@ class API
     public function gets($GETs){
         $obj = null;
         foreach ($GETs as $GET) {
-            $obj[$GET] = $this->noSqlInject(@$_GET[$GET]);
+            $obj[$GET] = $this->noSqlInject($_GET[$GET]);
         }
         return $obj;
     }
@@ -36,6 +36,11 @@ class API
                         echo $this->resposta("ERRO", "Está faltando alguns parametros.");
                         exit(401);
                         return;
+                    }else
+                    if ($params[$key] == null) {
+                        echo $this->resposta("ERRO", "Está faltando alguns parametros.");
+                        exit(401);
+                        return;
                     }
                 }
             }
@@ -44,6 +49,11 @@ class API
 
             foreach ($paramsObrigatorios as $parametro) {
                 if (!$params[$parametro]) {
+                    echo $this->resposta("ERRO", "Está faltando alguns parametros.");
+                    exit(401);
+                    return;
+                }else
+                if ($params[$parametro] == null) {
                     echo $this->resposta("ERRO", "Está faltando alguns parametros.");
                     exit(401);
                     return;
@@ -62,6 +72,11 @@ class API
                         echo $this->resposta("ERRO", "Está faltando alguns parametros.");
                         exit(401);
                         return;
+                    }else
+                    if ($params[$key] == null) {
+                        echo $this->resposta("ERRO", "Está faltando alguns parametros.");
+                        exit(401);
+                        return;
                     }
                 }
             }
@@ -70,6 +85,11 @@ class API
 
             foreach ($paramsObrigatorios as $parametro) {
                 if (!$params[$parametro]) {
+                    echo $this->resposta("ERRO", "Está faltando alguns parametros.");
+                    exit(401);
+                    return;
+                }else
+                if ($params[$parametro] == null) {
                     echo $this->resposta("ERRO", "Está faltando alguns parametros.");
                     exit(401);
                     return;
@@ -93,7 +113,7 @@ class API
             return;
         }
     }
-
+    
     public function verificarToken($token){
         if ($token !== "9f3eb59b17f92558802189384836c7cb") {
             echo $this->resposta("ERRO", "Token de acesso incorreto.");
