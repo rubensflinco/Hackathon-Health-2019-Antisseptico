@@ -32,6 +32,10 @@ class LayoutMenuCompleto extends Component {
             <i className="fa fa-home " aria-hidden="true"></i><span>Home</span>
           </Link>
 
+          <Link to="/logado/pacientes">
+            <i className="fa fa-users " aria-hidden="true"></i><span>Pacientes</span>
+          </Link>
+
           <a href="/" onClick={Fun.sairDaConta}>
             <i className="fa fa-power-off " aria-hidden="true"></i><span>Sair</span>
           </a>

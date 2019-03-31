@@ -30,6 +30,12 @@ class LayoutMenuReduzido extends Component {
                     <p>Home</p>
                   </Link>
                 </li>
+                <li>
+                  <Link to="/logado/pacientes">
+                    <i className="button fa fa-users fa-2x fa-mobile-3x" aria-hidden="true"></i>
+                    <p>Pacientes</p>
+                  </Link>
+                </li>
                 <li className="sair" remove-mobile="">
                   <a href="/" onClick={Fun.sairDaConta}>
                     <i className="fa fa-power-off fa-2x fa-mobile-3x" aria-hidden="true"></i>
