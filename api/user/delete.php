@@ -13,7 +13,7 @@ $api->bodysObrigatorias($body, "*");
 $api->verificarToken($get['token']);
 
 // Query MYSQL
-$query = mysqli_query($connect, "DELETE FROM `company_user` WHERE `user_token`='".$body['user_token']."' ");
+$query = mysqli_query($connect, "DELETE FROM `company_user` WHERE 'user_token'='".$body['user_token']."' ");
 if ($query) {
     $api->resposta("OK", "Dados deletados do banco de dados!", $query);
 } else {

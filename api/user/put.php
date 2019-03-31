@@ -14,7 +14,7 @@ $api->verificarToken($get['token']);
 
 // Variaveis
 $dataHora = date('d/m/Y - H:i:s', time());
-$password = hash('sha512', $body['senha']);
+$password = hash('sha512', $body['password']);
 
 // Query MYSQL
 $query = mysqli_query($connect, "UPDATE `company_user` SET `name`='".$body['name']."',`email`='".$body['email']."',`password`='".$password."',`image_url`='".$body['image_url']."',`permission`='".$body['permission']."',`updated_at`='".$dataHora."' WHERE `user_token`='".$body['user_token']."' ");

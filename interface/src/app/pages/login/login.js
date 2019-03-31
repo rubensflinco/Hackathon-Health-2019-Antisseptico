@@ -4,7 +4,6 @@ import { ServicesUser } from '../../services/user/user';
 import { ServicesUserLogin } from '../../services/user/login';
 import * as Fun from '../../../assets/js/fun';
 import html from './login.jsx';
-import sha from 'js-sha512';
 
 class PageLogin extends Component {
     constructor(props) {
@@ -30,7 +29,7 @@ class PageLogin extends Component {
         let data = new FormData(e.target);
 
         let email = data.get("email");
-        let senha = sha.sha512(data.get("senha"));
+        let senha = data.get("senha");
         let token_push = localStorage.getItem('token_push');
 
         This.setState({

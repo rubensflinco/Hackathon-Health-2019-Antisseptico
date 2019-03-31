@@ -1,4 +1,4 @@
 <?php
-$connect = mysqli_connect("localhost", "id9122595_admin", "admin123", "id9122595_db");
+$connect = mysqli_connect("localhost", "plane132_sepsisGuardian", "sepsisGuardian", "plane132_sepsisGuardian");
 $connect->set_charset('utf8');
 ?>

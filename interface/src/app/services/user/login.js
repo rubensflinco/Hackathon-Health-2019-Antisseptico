@@ -10,7 +10,7 @@ export class ServicesUserLogin extends Component {
         let token = localStorage.getItem('token_login');
         await ServicesUser.prototype.getUser(token).then(function(res){
             resposta = res.resposta;
-            if (res.resposta.PW_TOKEN_TEMP !== token) {
+            if (res.resposta[0].user_token !== token) {
                 Fun.sairDaConta();
             }
         }).catch(function(err){
@@ -21,22 +21,22 @@ export class ServicesUserLogin extends Component {
     }
 
     verificar() {
-        // let token = localStorage.getItem('token_login');
-        // ServicesUser.prototype.getUser(token).then(function(res){
-        //     if (res.resposta.PW_TOKEN_TEMP !== token) {
-        //         Fun.sairDaConta();
-        //     }
-        // }).catch(function(err){
-        //     console.log(err);
-        //     Fun.sairDaConta();
-        // });
+        let token = localStorage.getItem('token_login');
+        ServicesUser.prototype.getUser(token).then(function(res){
+            if (res.resposta[0].user_token !== token) {
+                Fun.sairDaConta();
+            }
+        }).catch(function(err){
+            console.log(err);
+            Fun.sairDaConta();
+        });
     }
 
     redirectLogin() {
-        // let token = localStorage.getItem('token_login');
-        // if (token) {
-        //     browserHistory.push("/logado");
-        // }
+        let token = localStorage.getItem('token_login');
+        if (token) {
+            browserHistory.push("/logado");
+        }
     }
 
 }

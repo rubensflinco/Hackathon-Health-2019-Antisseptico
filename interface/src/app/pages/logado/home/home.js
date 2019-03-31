@@ -13,11 +13,11 @@ class PageLogadoHome extends Component {
   }
 
   async componentDidMount() {
-    // const getUser = await ServicesUserLogin.prototype.get();
+    const getUser = await ServicesUserLogin.prototype.get();
 
     await this.setState({
       isLoaded: true,
-      // getUser
+      getUser
     });
   }
 
