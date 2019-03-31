@@ -16,7 +16,7 @@ export default function html(This, state) {
             <div className="animated fadeIn fast">
 
 
-                <form>
+                <form onSubmit={This.formSubmit}>
 
                     <div className="row">
                         <div className="col-md-6 col-md-offset-3">
@@ -28,13 +28,13 @@ export default function html(This, state) {
                             <br />
 
                             <p className="center">Nome</p>
-                            <input id="nome" name="nome" type="text" className="form-control" placeholder="Nome do paciente" />
+                            <input id="name" name="name" type="text" className="form-control" placeholder="Nome do paciente" />
 
                             <p className="center">Data de nascimento</p>
-                            <input id="dataNascimento" name="dataNascimento" type="date" className="form-control" placeholder="Data de nascimento" />
+                            <input id="birth_date" name="birth_date" type="date" className="form-control" placeholder="Data de nascimento" />
 
                             <p className="center">Gênero</p>
-                            <select id="genero" name="genero" className="form-control" required>
+                            <select id="gender" name="gender" className="form-control" >
                                 <option value="masculino"> Masculino </option>
                                 <option value="feminino"> Feminino </option>
                                 <option value="outros"> Outros </option>
@@ -48,8 +48,8 @@ export default function html(This, state) {
 
                             <br />
 
-                            <div class="row">
-                                <div class="col-md-6 center">
+                            <div className="row">
+                                <div className="col-md-6 center">
                                     <p>Temperatura</p>
                                     <input id="central_tempeture" name="central_tempeture" type="number" className="form-control" placeholder="Temperatura" />
 
@@ -63,7 +63,7 @@ export default function html(This, state) {
                                     <input id="total_leucocyto" name="total_leucocyto" type="number" className="form-control" placeholder="Leucócitos totais" />
 
                                     <p>Desvio a esquerda</p>
-                                    <select id="left_deviation" name="left_deviation" className="form-control" required>
+                                    <select id="left_deviation" name="left_deviation" className="form-control" >
                                         <option value="0"> Não </option>
                                         <option value="1"> Sim </option>
                                     </select>
@@ -72,13 +72,13 @@ export default function html(This, state) {
                                     <input id="systolc_arterial_pressure" name="systolc_arterial_pressure" type="number" className="form-control" placeholder="Pressão arterial sistólica" />
                                     
                                     <p>Estado de consciência</p>
-                                    <select id="lactate" name="lactate" className="form-control" required>
+                                    <select id="lactate" name="lactate" className="form-control" >
                                         <option value="0"> Não </option>
                                         <option value="1"> Sim </option>
                                     </select>
                                 </div>
 
-                                <div class="col-md-6 center">
+                                <div className="col-md-6 center">
                                     <p>Pressão arterial</p>
                                     <input id="arterial_pressure" name="arterial_pressure" type="number" className="form-control" placeholder="Pressão arterial" />
 
