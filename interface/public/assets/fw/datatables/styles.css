@@ -1,0 +1,50 @@
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    content: "\f078";
+    color: #777!important;
+    background-color: transparent!important;
+    height: 14px!important;
+    width: 14px!important;
+    border: none!important;
+    box-shadow: none!important;
+    display: inline-block!important;
+    font: normal normal normal 10px/0.9 FontAwesome!important;
+    font-size: inherit!important;
+    text-rendering: auto!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    content: "\f077";
+    color: #777!important;
+    background-color: transparent!important;
+    height: 14px!important;
+    width: 14px!important;
+    border: none!important;
+    box-shadow: none!important;
+    display: inline-block!important;
+    font: normal normal normal 10px/0.9 FontAwesome!important;
+    font-size: inherit!important;
+    text-rendering: auto!important;
+    -webkit-font-smoothing: antialiased!important;
+    -moz-osx-font-smoothing: grayscale!important;
+}
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 50em;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #eb754b!important;
+    border-color: #eb754b!important;
+    color: #fff!important;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 1px solid #ddd!important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 0!important;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    z-index: 0!important;
+}
+.table>thead>tr>th {
+    border-bottom: 1px solid #ddd!important;
+}

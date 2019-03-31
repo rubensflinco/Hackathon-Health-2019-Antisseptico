@@ -1,0 +1,13 @@
+curl -X POST \
+ https://fcm.googleapis.com/fcm/send \
+ -H 'Authorization: key=AAAA0tyyV68:APA91bFSqGHBqEt5Q-kjhgfd' \
+ -H 'Content-Type: application/json' \
+ -d '{
+"notification": {
+ "title": "sepsis-guardian",
+ "body": "descricao",
+ "icon": "http://sepsis-guardian/assets/img/icon.png",
+ "click_action": "http://localhost:4200/painel/notificacao/35"
+},
+"to" : "TOKEN_PUSH"
+}'
