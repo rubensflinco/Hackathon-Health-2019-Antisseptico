@@ -1,0 +1,7 @@
+pandas
+numpy
+psycopg2
+scipy
+scikit-learn
+SQLAlchemy
+requests
