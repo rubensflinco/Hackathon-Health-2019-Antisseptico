@@ -14,7 +14,7 @@ export default function html(This, state) {
         return (
             <div className="animated fadeIn fast">
                 <div>
-                    <center><h1>RU, tudo ótimo?</h1></center>
+                    <center><h1>{state.getUser[0].name}, tudo ótimo?</h1></center>
                 </div>
 
                 <br/><br/>

@@ -13,6 +13,9 @@ import PageLogadoHome from './app/pages/logado/home/home';
 import { AtivarMessagingService } from './assets/js/fun';
 
 import $ from 'jquery';
+import PageLogadoPacient from './app/pages/logado/pacient/pacient';
+import PageLogadoPacientDetails from './app/pages/logado/pacient/details/details';
+import PageLogadoPacientAdd from './app/pages/logado/pacient/add/add';
 window.jQuery = $;
 window.$ = $;
 global.jQuery = $;
@@ -26,6 +29,9 @@ ReactDOM.render((
         <Route path='/' component={PageLogin} />
         <Route path='logado' component={PageLogado}>
             <IndexRoute component={PageLogadoHome} />
+            <Route path='pacientes' name="Lista de pacientes" component={PageLogadoPacient}></Route>
+            <Route path='pacientes/add' name="Adicionar pacientes" component={PageLogadoPacientAdd}></Route>
+            <Route path='pacientes/details' name="Detalhes do paciente" component={PageLogadoPacientDetails}></Route>
         </Route>
         <Route path='*' component={Page404} />
     </Router>
