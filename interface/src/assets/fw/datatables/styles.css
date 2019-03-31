@@ -1,0 +1,77 @@
+/* Tela de PC */
+@media (min-width:768px) {
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 55em;
+}
+}
+/* Tela de Mobile */
+@media (max-width:767px) {
+div.dataTables_wrapper div.dataTables_filter input {
+    width: 20em;
+}
+}
+.dataTable tr>td, .dataTable tr>th {
+    border-color: rgba(0, 94, 184, .2);
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+    color: #565454;
+    border: 0.5px solid #565454;
+    background-color: transparent;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr[role="row"]>th:first-child:before {
+    content: "\f078";
+    color: #565454;
+    background-color: transparent;
+    height: 14px;
+    width: 14px;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    font: normal normal normal 10px/0.9 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+table.dataTable.dtr-inline.collapsed>tbody>tr.parent>td:first-child:before, table.dataTable.dtr-inline.collapsed>tbody>tr.parent>th:first-child:before {
+    content: "\f077";
+    color: #565454;
+    background-color: transparent;
+    height: 14px;
+    width: 14px;
+    border: none;
+    box-shadow: none;
+    display: inline-block;
+    font: normal normal normal 10px/0.9 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.pagination>li>a, .pagination>li>span {
+    color: #565454;
+    border: 0.5px solid #565454;
+    background-color: transparent;
+}
+.pagination>li>a:hover, .pagination>li>span:hover {
+    color: #565454;
+    border: 0.5px solid #565454;
+    background-color: transparent;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #565454;
+    border: 0.5px solid #565454;
+    color: #fff;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    border-top: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 0;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+    z-index: 0;
+}
+.table>thead>tr>th {
+    border-bottom: 1px solid #ddd;
+}

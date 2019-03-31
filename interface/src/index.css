@@ -1,0 +1,15 @@
+@import url("./assets/fw/font-awesome-4.7.0/css/font-awesome.min.css");
+@import url("./assets/fw/animate.css/animate.css");
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("../node_modules/datatables.net-bs/css/dataTables.bootstrap.min.css");
+@import url("../node_modules/datatables.net-responsive-dt/css/responsive.dataTables.min.css");
+@import url("./assets/fw/datatables/styles.css");
+@import url("./assets/css/styles.css");
+
+body {
+    margin: 0;
+    background-color: #394056;
+}
+.nav>li {
+    display: inline-block;
+}
