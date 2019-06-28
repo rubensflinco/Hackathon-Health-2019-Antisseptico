@@ -10,18 +10,17 @@ For the frontend part, we developed responsive application using the React techn
 <a href="https://github.com/JotinhaBR">Rubens Flinco</a>, <a href="https://github.com/brenoyano">Breno Yano</a>, <a href="https://github.com/lrdRodrigues">Rogerio Rodrigues</a>, Luis Bonilha.
 
 <br/>
-<hr>
 <br/>
 <img src="https://i.imgur.com/YCsvoQH.jpg">
 <br/>
-<hr>
 <br/>
 
 
 
 # Projeto:
 <img src="https://i.imgur.com/JnZF9a9.png">
-<br/>
+<br>
+<hr>
 <img src="https://i.imgur.com/WyXKdfw.png" align="left" width="250px">
 <img src="https://i.imgur.com/1bbC2Nk.png" align="left" width="250px">
 <img src="https://i.imgur.com/hBRTBcX.png" align="left" width="250px">
@@ -30,3 +29,4 @@ For the frontend part, we developed responsive application using the React techn
 <img src="https://i.imgur.com/IOUthoS.png" align="left" width="250px">
 <img src="https://i.imgur.com/K1kjmzu.png" align="left" width="250px">
 <img src="https://i.imgur.com/2evLz9q.png" align="left" width="250px">
+
