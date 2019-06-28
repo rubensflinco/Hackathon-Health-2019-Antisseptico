@@ -20,15 +20,13 @@ For the frontend part, we developed responsive application using the React techn
 
 
 # Projeto:
-<center align="center">
-  <img src="https://i.imgur.com/JnZF9a9.png" width="80%">
-  <br/>
-  <img src="https://i.imgur.com/WyXKdfw.png" align="left" width="250px">
-  <img src="https://i.imgur.com/1bbC2Nk.png" align="left" width="250px">
-  <img src="https://i.imgur.com/hBRTBcX.png" align="left" width="250px">
-  <img src="https://i.imgur.com/av7GiEY.png" align="left" width="250px">
-  <img src="https://i.imgur.com/uZo5rQj.png" align="left" width="250px">
-  <img src="https://i.imgur.com/IOUthoS.png" align="left" width="250px">
-  <img src="https://i.imgur.com/K1kjmzu.png" align="left" width="250px">
-  <img src="https://i.imgur.com/2evLz9q.png" align="left" width="250px">
-</center>
+<img src="https://i.imgur.com/JnZF9a9.png">
+<br/>
+<img src="https://i.imgur.com/WyXKdfw.png" align="left" width="250px">
+<img src="https://i.imgur.com/1bbC2Nk.png" align="left" width="250px">
+<img src="https://i.imgur.com/hBRTBcX.png" align="left" width="250px">
+<img src="https://i.imgur.com/av7GiEY.png" align="left" width="250px">
+<img src="https://i.imgur.com/uZo5rQj.png" align="left" width="250px">
+<img src="https://i.imgur.com/IOUthoS.png" align="left" width="250px">
+<img src="https://i.imgur.com/K1kjmzu.png" align="left" width="250px">
+<img src="https://i.imgur.com/2evLz9q.png" align="left" width="250px">
