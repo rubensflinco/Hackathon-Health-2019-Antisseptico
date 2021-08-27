@@ -7,7 +7,7 @@ For the frontend part, we developed responsive application using the React techn
 
 # Equipe Antisséptico:
 <br/>
-<a href="https://github.com/JotinhaBR">Rubens Flinco</a>, <a href="https://github.com/brenoyano">Breno Yano</a>, <a href="https://github.com/lrdRodrigues">Rogerio Rodrigues</a>, Luis Bonilha.
+<a href="https://github.com/rubensflinco">Rubens Flinco</a>, <a href="https://github.com/brenoyano">Breno Yano</a>, <a href="https://github.com/lrdRodrigues">Rogerio Rodrigues</a>, Luis Bonilha.
 
 <br/>
 <br/>
